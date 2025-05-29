@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Phythoscan - Leaf Identifier", layout="centered")
-st.title("🌿 Phythoscan - Identify a Leaf and Discover Its Uses")
+st.set_page_config(page_title="PhytoScan - Leaf Identifier", layout="centered")
+st.title("🌿 PhytoScan - Identify a Leaf and Discover Its Uses")
 
 uploaded_file = st.file_uploader("📤 Upload a Leaf Image", type=["jpg", "jpeg", "png"])
 
